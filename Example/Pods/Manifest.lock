@@ -1,0 +1,33 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - OBZuJianA (0.1.0)
+  - OBZuJianB (0.1.0):
+    - OBZuJianA
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - "OBZuJianA (from `/Users/orange/Desktop/组件化开发/Lib/OBZuJianA`)"
+  - OBZuJianB (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  OBZuJianA:
+    :path: "/Users/orange/Desktop/组件化开发/Lib/OBZuJianA"
+  OBZuJianB:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  OBZuJianA: 9dec28140f056d4ec9965d9dc0415569ccf2850f
+  OBZuJianB: e1c91f3bd23c71cd6be0d262002a4616333c92a5
+
+PODFILE CHECKSUM: efe820cac75cf4ffe4087b7c51a1fbf4bd1274b0
+
+COCOAPODS: 1.9.1

@@ -4,6 +4,7 @@ platform :ios, '8.0'
 
 target 'OBZuJianB_Example' do
   pod 'OBZuJianB', :path => '../'
+  pod 'OBZuJianA', :path => '/Users/orange/Desktop/组件化开发/Lib/OBZuJianA' 
 
   target 'OBZuJianB_Tests' do
     inherit! :search_paths
