@@ -11,7 +11,7 @@
 @implementation OBHeHe
 
 - (void)sayB:(NSString *)str {
-    NSLog(@"===%@===", str);
+    NSLog(@"==33333=%@===", str);
 }
 
 @end
